@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 125vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: rgb(61, 48, 48);
+    color: white;
+}
+
+header{
+    background-color: wheat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+header *{
+    display: inline;
+}
+
+header li{
+    margin: 30px;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+.port .container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.port .container img{
+    width: 400px;
+    height: 380px;
+    padding: 40px;
+}
+
+.port .container .bio{
+    padding: 30px 500px 20px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.port .container .career{
+    padding: 30px 300px 0px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.port .container .skills{
+    display: inline;
+    padding: 30px 300px 0px 20px;
+}
+
+.port .container .skills li{
+    list-style-type: none;
+    padding: 5px;
+}
